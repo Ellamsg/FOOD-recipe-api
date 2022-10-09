@@ -45,7 +45,7 @@ async function fetchAPI(){
     htmlRender(data.hits)
 }
 
-//render new html function >> check input for function
+//render new html function >> check input for functions
  function htmlRender(outputs){
        let newhtml =""
         outputs.map((output)=>{
